@@ -1,0 +1,26 @@
+{
+  "name": "recipe-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@pika/react": "^16.13.1",
+    "@pika/react-dom": "^16.13.1",
+    "formik": "^2.2.5",
+    "lodash": "^4.17.21",
+    "react-router-dom": "^5.2.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/yup": "^0.29.9",
+    "typescript": "^3.9.3",
+    "vite": "^1.0.0-rc.8",
+    "vite-plugin-react": "^3.0.0"
+  }
+}
